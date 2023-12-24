@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import HeroPic from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white">
-      <div className="lg:w-1/3 ssm:w-fit">
+    <section className="flex justify-around items-center p-10 sm:flex-row sm:space-x-10 flex-col space-y-10 text-white">
+      <div className="sm:w-1/3 ">
         <p className="text-4xl mb-5 text-slate-300">I'm</p>
         <h1 className="text-6xl">Daián René</h1>
         <hr className="mt-5" />
@@ -15,16 +16,16 @@ const Hero = () => {
           dolores. Obcaecati, repellendus.
         </p>
       </div>
-      <div className="lg:w-1/3 ssm:w-fit">
+      <div className="sm:w-1/3  flex items-center justify-center">
         <img
           src={HeroPic}
           alt=""
-          width={250}
-          height={250}
-          className="rounded-full w-full border-8 border-white"
+          width={350}
+          height={350}
+          className="rounded-full  border-8 border-white"
         />
       </div>
-      <div className="lg:w-1/3 ssm:w-fit">
+      <div className="sm:w-1/3 ">
         <p className="text-4xl mb-4">About Me</p>
         <p className="text-slate-300">Let's build quality in programming</p>
         <button
